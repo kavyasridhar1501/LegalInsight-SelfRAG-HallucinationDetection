@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: legalinsight-api
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python backend/api.py"
+    healthCheckPath: /health
+    envVars:
+      - key: SELFRAG_MODEL_PATH
+        value: /opt/render/project/data/models/selfrag-7b-q4_k_m.gguf
+      - key: PORT
+        value: 5000
