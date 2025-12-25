@@ -172,7 +172,7 @@ LegalInsight provides dramatic time savings compared to manual contract review:
 
 
 | Metric                              | Value |
-|-------------------------------------|-------|
+|------------------------------------|-------|
 | Total Queries Processed             | 98    |
 | Average Manual Time (min)           | 1.66  |
 | Average AI Time (sec)               | 22.60 |
@@ -184,6 +184,7 @@ LegalInsight provides dramatic time savings compared to manual contract review:
 | Median Efficiency (%)               | 70.92 |
 | Min Efficiency (%)                  | -77.10|
 | Max Efficiency (%)                  | 94.25 |
+
 
 
 ### Calculation Methodology
